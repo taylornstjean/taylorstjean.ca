@@ -7,11 +7,16 @@ module.exports = merge(common, {
   mode: 'production',
   plugins: [
     new HtmlWebpackPlugin({
+      filename: "./index.html",
       template: './index.html',
-    }, {
-      template: './experience.html'
-    }, {
-      template: './contact.html'
+    }),
+    new HtmlWebpackPlugin({
+      filename: "./experience.html",
+      template: './experience.html',
+    }),
+    new HtmlWebpackPlugin({
+      filename: "./contact.html",
+      template: './contact.html',
     }),
     new CopyPlugin({
       patterns: [
