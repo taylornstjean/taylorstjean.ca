@@ -12,6 +12,9 @@ module.exports = merge(common, {
     new HtmlWebpackPlugin({
       template: './experience.html'
     }),
+    new HtmlWebpackPlugin({
+      template: './contact.html'
+    }),
     new CopyPlugin({
       patterns: [
         { from: 'img', to: 'img' },
