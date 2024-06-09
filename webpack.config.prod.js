@@ -9,8 +9,12 @@ module.exports = merge(common, {
     new HtmlWebpackPlugin({
       template: './index.html',
     }),
+    new HtmlWebpackPlugin({
+      template: './experience.html'
+    }),
     new CopyPlugin({
       patterns: [
+        { from: 'home', to: "index.html"},
         { from: 'img', to: 'img' },
         { from: 'css', to: 'css' },
         { from: 'js/vendor', to: 'js/vendor' },
