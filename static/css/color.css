@@ -2,9 +2,9 @@
 
 :root {
     --main-bg-color: #0a0a0a;
-    --header-bg-color: #121316;
+    --header-bg-color: #141518;
     --footer-bg-color: #121316;
-    --secondary-bg-color: #0e0e0e;
+    --secondary-bg-color: #0e0f11;
     --light-accent-color: dodgerblue;
     --light-accent-color--opaque: rgba(30, 143, 255, 0.5);
     --accent-color: dodgerblue;

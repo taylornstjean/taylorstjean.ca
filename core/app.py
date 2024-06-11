@@ -15,6 +15,8 @@ app = Flask(
     instance_relative_config=True
 )
 
+app.config.from_object(BaseConfig)
+
 
 ###########################################################################
 # REGISTER BLUEPRINTS
